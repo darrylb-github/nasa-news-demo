@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?> <rss version="2.0" xml:base="http://www.test.com/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/"> <channel> <title>Test News</title>
+    <description>A RSS news feed containing the latest test news</description>
+    <link>http://www.test.com/</link>
+    <atom:link rel="self" href="test.rss" />
+    <language>en-us</language>
+    <managingEditor>jim.wilson@nasa.gov</managingEditor>
+    <webMaster>brian.dunbar@nasa.gov</webMaster>
+    <docs>http://blogs.harvard.edu/tech/rss</docs>
+    <item> <title>Test Title 1</title>
+        <link>http://www.test.com/1</link>
+        <description>This is the test news article 1</description>
+        <enclosure url="http://www.test.com/1.jpeg" length="100" type="image/jpeg" />
+        <guid isPermaLink="false">http://www.test.com/1</guid>
+        <pubDate>Thu, 01 Jan 2017 12:00 EST</pubDate>
+        <source url="test.rss">Test news</source>
+        <dc:identifier>1</dc:identifier>
+    </item>
+    <item> <title>Test Title 2</title>
+        <link>http://www.test.com/2</link>
+        <description>This is the test news article 2</description>
+        <enclosure url="http://www.test.com/2.jpeg" length="200" type="image/jpeg" />
+        <guid isPermaLink="false">http://www.test.com/2</guid>
+        <pubDate>Thu, 02 Jan 2017 12:00 EST</pubDate>
+        <source url="test.rss">Test news</source>
+        <dc:identifier>2</dc:identifier>
+    </item>
+    <item> <title>Test Title 3</title>
+        <link>http://www.test.com/3</link>
+        <description>This is the test news article 3</description>
+        <enclosure url="http://www.test.com/3.jpeg" length="100" type="image/jpeg" />
+        <guid isPermaLink="false">http://www.test.com/3</guid>
+        <pubDate>Thu, 03 Jan 2017 12:00 EST</pubDate>
+        <source url="test.rss">Test News</source>
+        <dc:identifier>3</dc:identifier>
+    </item>
+</channel>
+</rss>

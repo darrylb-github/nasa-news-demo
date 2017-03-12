@@ -1,0 +1,23 @@
+{
+  "name": "angularui",
+  "authors": [
+    "Darryl Bresland <dbresland@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-spring-data-rest": "^0.4.6",
+    "angular-bootstrap": "^2.5.0",
+    "at-table": "^1.0.7"
+  }
+}
